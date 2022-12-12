@@ -34,8 +34,7 @@
                 <div class="col-2 text-right">
                     <a href="login-admin.php" class="btn btn-secondary">
                         <i class="fa-solid fa-right-to-bracket"></i> Login
-                    </a>
-                            
+                    </a>    
                 </div>          
             </div>
             <hr> 
