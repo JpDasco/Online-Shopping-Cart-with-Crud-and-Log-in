@@ -17,12 +17,6 @@
 
     require_once('closecon.php');
     
-    
-        
-    
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -171,14 +165,19 @@
                         <form method="post" enctype="multipart/form-data">
                             <label for="productname">Product Name</label>
                             <input type="text" name="productname" placeholder="Name" required><br>
+
                             <label for="productprice">Product Price</label>
                             <input type="number" name="productprice" placeholder="Price" required><br>
+
                             <label for="productdescription">Product Description</label>
                             <input type="text" style="width:500px; height:50px;" name="productdescription" placeholder="Description" required><br>
+
                             <label for="productphoto1">Photo 1</label>
                             <input type="file" name="productphoto1" id="productphoto1" required><br>
+
                             <label for="productphoto2">Photo 2</label>
                             <input type="file" name="productphoto2" id="productphoto2" required><br>
+
                             <button type="submit" name="btnAdd">Add Product</button>
                         </form>
                     </div>
@@ -229,11 +228,8 @@
                     </table>
                     </div>
                 </div>
-       
             </div>
-        
         </div>
-       
     </div>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>

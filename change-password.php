@@ -105,10 +105,13 @@
                             ?>
                             <label for="extpassword">Exisitng Password:</label>
                             <input type="password" name="extpassword" placeholder="Existing Password" required><br>
+
                             <label for="newpassword">New Password:</label>
                             <input type="password" name="newpassword" placeholder="New Password" required><br>
+
                             <label for="confirmpassword">Confirm Password:</label>
                             <input type="password" name="confirmpassword" placeholder="Confirm Password" required><br>
+                            
                             <input type="submit" name="btnSave" value="Save Changes">
                         </form>
                     </div>
