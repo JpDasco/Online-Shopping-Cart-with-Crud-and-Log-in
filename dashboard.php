@@ -15,7 +15,6 @@
     }
     else
         echo 'ERROR: Could not execute your request!';
-    
 
 
     require_once('closecon.php');
